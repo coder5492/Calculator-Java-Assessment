@@ -1,0 +1,11 @@
+2020-08-14 22:47:03,914  INFO [main] CalculatorApplication:71  - Calculator created
+2020-08-14 22:47:03,921  INFO [main] CalculatorApplication:63  - Parsing expression
+2020-08-14 22:47:04,003  INFO [main] CalculatorApplication:125  - Expression parsed and answer returned
+2020-08-14 22:47:04,003  INFO [main] CalculatorApplication:112  - Numbers Successfully Subtracted
+2020-08-14 22:47:04,468  INFO [main] CalculatorApplication:24  - Getting Configuration config,.yml
+2020-08-14 22:47:04,639  INFO [main] CalculatorApplication:22  - Generating Results
+2020-08-14 22:47:04,640  INFO [main] CalculatorApplication:40  - Writing to file
+2020-08-14 22:47:04,670  INFO [main] CalculatorApplication:64  - Writing Success
+2020-08-14 22:47:04,677  INFO [main] CalculatorApplication:24  - Getting Configuration config,.yml
+2020-08-14 22:47:04,853  INFO [main] CalculatorApplication:47  - Preparing to send email....
+2020-08-14 22:47:20,379  INFO [main] CalculatorApplication:51  - Email Sent Successfully!!!!

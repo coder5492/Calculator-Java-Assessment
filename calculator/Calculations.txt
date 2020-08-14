@@ -1,0 +1,4 @@
+                        Calculation Results
+
+5 + 9 * 7 - 50 / 5 = 120
+10 / 3 = 18
