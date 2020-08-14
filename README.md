@@ -1,11 +1,13 @@
 # Calculator-Java-Assessment
 
 1. Please ensure that you update src/main/resoruces/config.yml with your gmail emailId and password for the emailSending fucntionality to work. Your config.yml file will have the following fields
+		```
 		SMTP server details
 		emailAddress:
 		password: 
 		host: smtp.gmail.com
 		port: 587
+		```
 	You need to update the emailAddress and password of your Gmail Id. Incase you're using other email services change the host and port top corresponding SMTP host and Port respectievely. 
 2. The main Class for the application is named as CalculatorApplication.java at sr/main/java/com/sangeeth/calculator/
 3. To use it as a librarary create a runnable jar file and add it to your project. Then you can import it to your Class.
