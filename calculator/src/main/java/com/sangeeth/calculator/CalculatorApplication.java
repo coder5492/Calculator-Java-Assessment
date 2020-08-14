@@ -1,7 +1,6 @@
 package com.sangeeth.calculator;
 
 import com.sangeeth.calculator.operators.*;
-import org.apache.log4j.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -34,7 +33,6 @@ class CustomDivider implements Divider{
 	}
 }
 public class CalculatorApplication {
-	static Logger log=Logger.getLogger(CalculatorApplication.class.getName());
 
 	public static void main(String[] args) throws IOException, MessagingException {
 		LoggingStratergy myLoggingStratergy = new LoggingStratergy("sangeethkichu100@gmail.com",FileFormat.txt);
@@ -44,10 +42,10 @@ public class CalculatorApplication {
 		CustomSubtractor cS = new CustomSubtractor();
 		
 		Calculator customCalculator = new Calculator.builder()
-//									.adder(cA)
-//									.subtractor(cS)
-//									.divider(cD)
-//									.multiplier(cM)
+									.adder(cA)
+									.subtractor(cS)
+									.divider(cD)
+									.multiplier(cM)
 									.loggingStratergy(myLoggingStratergy)
 									.build();
 		 
@@ -56,14 +54,12 @@ public class CalculatorApplication {
 		String expression = "5 + 9 * 7 - 50 / 5";
 
 		System.out.println(customCalculator.calculateExpression(expression));
-//		System.out.println(customCalculator.add(temp));
-//		System.out.println(customCalculator.subtract(5, 8));
-//		System.out.println(customCalculator.multiply(temp));
+		System.out.println(customCalculator.add(temp));
+		System.out.println(customCalculator.subtract(5, 8));
+		System.out.println(customCalculator.multiply(temp));
 		System.out.println(customCalculator.divide(10, 3));
 		customCalculator.sendResultsAsEmail();
-//		Configuration config = new Configuration();
-//		config.getConfiguration();
-//		System.out.println(config.getEmailSubject());
+
 	}
 }
 

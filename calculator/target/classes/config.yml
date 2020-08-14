@@ -6,7 +6,7 @@ emailSubject: Java Calculator App results
 emailText: Dear user, Please find the attached results file corresponding to today's calculation. Thank you!!
 
 #SMTP server details
-emailAddress: sangeethkichu100@gmail.com
-password: sarang9656235492
+emailAddress:
+password: 
 host: smtp.gmail.com
 port: 587
